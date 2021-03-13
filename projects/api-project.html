@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title class="owner-name">#</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand owner-name" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="github" target="_blank">Github</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html#projects">Projects</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- First Container -->
+    <div class="container-fluid bg-1">
+        <div class="container">
+
+            <h1 class="margin text-center">Population Grabber (NYC)</h1>
+
+            <div class="row">
+
+
+                <div class="col-sm-6">
+                    <img src = "../img/population-grabber.png" width = "35%">
+                </div>
+                <div class="col-sm-6">
+                    <p>Testing if it works.</p>
+                </div>
+
+
+            </div>
+
+            <p>In this project, we explored APIs by interacting with the objects from the dataset.
+            In my case, I grabbed an API that stored the number of people in each borough through a time frame.
+            The data had population in each borough through the years 1950-2040.</p>
+            <br>
+            <p>Now, I'm going to go through some of the struggles and next steps I have with this project.
+            The challenges I had with this project was visualizing how the object's worked.  To simply put it,
+            I had trouble with grabbing the data in the script.js file, because the naming system was slightly different.
+            I realized that the property names were abnormal in the sense that it had spaces in front of it, and
+            sometimes inconsistent underscores. I was able to fix it by manually writing out the names with my
+            knowledge of concantenating strings. I then stored it as a variable which then can be used in bracket
+            notation to grab the value. (Look at the image below for reference)</p>
+            <br>
+            <p>In terms of doing anything different, I would strive to go for a dataset with more values to
+            work with. However, since this was my first time making a projecxt with APIs, it was a good start.
+            I would definitely go for something that contain more information next time, and possibly
+            do some manipulation with the data. With this project, I really only displayed the data in a nice
+            sentence. I hadn't done any manipulation with the data. Those are my next steps with working with
+            APIs.</p>
+            <a href="#">Link about the project</a><br>
+
+            <!--EXAMPLE OF PREVIEW LINK-->
+            <!--<a href="http://yourUserName.github.io/yourRepoName">Preview</a>-->
+            <!--EXAMPLE OF GITHUB LINK-->
+            <!--<a href="http://github.com/yourUserName/yourRepoName">Github</a>-->
+
+            <img src="../img/avatar.png" class="img-fluid project-img">
+
+
+            <div class="row">
+
+                <!--
+                <div class="col-sm-6">
+                    Use this to...
+                </div>
+                <div class="col-sm-6">
+                    ...make two columns
+                </div>
+                -->
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer class="container-fluid bg-4 text-center">
+        <a href="#" target="_blank" id="fork"><img src="../img/fork.png"></a><br>
+        <a href="https://hstatsep.github.io" target="_blank"><img src="https://hstatsep.github.io/img/hstatsep-logo-small.png" id="sep"></a>
+    </footer>
+
+
+    <script src="../script.js"></script>
+</body>
+
+</html>
